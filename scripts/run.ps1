@@ -19,8 +19,8 @@ $dockerDir = "${outputDir}\docker"
 $setupQuiet = 0
 $qFlag = ""
 $quietPullFlag = ""
-$certbotHttpPort = "80"
-$certbotHttpsPort = "443"
+$certbotHttpPort = "88"
+$certbotHttpsPort = "89"
 if($env:BITWARDEN_QUIET -eq "true") {
     $setupQuiet = 1
     $qFlag = " -q"
